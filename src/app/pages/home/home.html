@@ -1,33 +1,33 @@
 <app-navbar></app-navbar>
 
-<section id="about" class="min-h-screen pt-32 bg-[#0B1120] text-white flex items-center">
-  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<section id="about" class="min-h-screen pt-24 sm:pt-28 md:pt-32 bg-[#0B1120] text-white flex items-center">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
 
     <div>
-      <p class="text-blue-400 text-lg mb-4">
+      <p class="text-blue-400 text-base sm:text-lg mb-4">
         Full Stack Developer Intern at CRIS
       </p>
 
-      <h1 class="text-4xl md:text-4xl md:text-6xl font-bold leading-tight mb-6">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
         Karan Singh
       </h1>
 
-      <p class="text-gray-400 text-xl leading-relaxed mb-8">
+      <p class="text-gray-400 text-base sm:text-lg lg:text-xl leading-relaxed mb-8 max-w-xl">
         Building scalable enterprise applications, real-time systems,
         and cloud-native backend infrastructure using Angular,
         Node.js, PostgreSQL, AWS, MQTT, and Docker.
       </p>
 
-     <div class="flex gap-4">
+     <div class="flex flex-col sm:flex-row gap-4">
 
-  <button class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold shadow-lg shadow-blue-500/20">
+  <button class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold shadow-lg shadow-blue-500/20 w-full sm:w-auto">
     View Projects
   </button>
 
   <a
   href="assets/resume/karanresume.pdf"
   download
- class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold shadow-lg shadow-blue-500/20"
+ class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold shadow-lg shadow-blue-500/20 text-center w-full sm:w-auto"
 >
   Download Resume
 </a>
@@ -38,12 +38,12 @@
     <div class="flex justify-center">
       <div class="relative">
 
-        <div class="relative w-[380px] rounded-3xl border border-white/10 shadow-2xl shadow-blue-500/10 hover:scale-105 transition duration-500"></div>
+        <div class="relative w-full max-w-[320px] sm:max-w-[380px] rounded-3xl border border-white/10 shadow-2xl shadow-blue-500/10 hover:scale-105 transition duration-500"></div>
 
         <img
           src="assets/images/karan.jpeg"
           alt="Karan Singh"
-          class="relative w-[380px] rounded-3xl border border-white/10"
+          class="relative w-full max-w-[320px] sm:max-w-[380px] rounded-3xl border border-white/10 object-cover aspect-[4/5]"
         />
 
       </div>
@@ -51,29 +51,29 @@
 
   </div>
 </section>
-<section id="experience" class="bg-[#111827] py-32 text-white">
-  <div class="max-w-7xl mx-auto px-6">
+<section id="experience" class="bg-[#111827] py-20 sm:py-24 md:py-32 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
 
     <div class="mb-16">
-      <p class="text-blue-400 text-lg mb-4">
+      <p class="text-blue-400 text-base sm:text-lg mb-4">
         Enterprise Experience
       </p>
 
-      <h2 class="text-3xl md:text-3xl md:text-5xl font-bold mb-6">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
         CRIS — Centre for Railway Information Systems
       </h2>
 
-      <p class="text-gray-400 text-xl max-w-4xl leading-relaxed">
+      <p class="text-gray-400 text-base sm:text-lg lg:text-xl max-w-4xl leading-relaxed">
         Working on government-scale RFID asset tracking systems
         powering Indian Railways using Angular, Node.js,
         LoopBack4, PostgreSQL, and AWS infrastructure.
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10">
-        <h3 class="text-3xl font-bold text-blue-400 mb-3">
+      <div class="bg-[#1F2937] p-6 sm:p-8 rounded-2xl border border-white/10">
+        <h3 class="text-2xl sm:text-3xl font-bold text-blue-400 mb-3">
           RFID
         </h3>
 
@@ -82,8 +82,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10">
-        <h3 class="text-3xl font-bold text-blue-400 mb-3">
+      <div class="bg-[#1F2937] p-6 sm:p-8 rounded-2xl border border-white/10">
+        <h3 class="text-2xl sm:text-3xl font-bold text-blue-400 mb-3">
           AWS
         </h3>
 
@@ -92,8 +92,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10">
-        <h3 class="text-3xl font-bold text-blue-400 mb-3">
+      <div class="bg-[#1F2937] p-6 sm:p-8 rounded-2xl border border-white/10">
+        <h3 class="text-2xl sm:text-3xl font-bold text-blue-400 mb-3">
           APIs
         </h3>
 
@@ -102,8 +102,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10">
-        <h3 class="text-3xl font-bold text-blue-400 mb-3">
+      <div class="bg-[#1F2937] p-6 sm:p-8 rounded-2xl border border-white/10">
+        <h3 class="text-2xl sm:text-3xl font-bold text-blue-400 mb-3">
           PostgreSQL
         </h3>
 
@@ -116,35 +116,35 @@
 
   </div>
 </section>
-<section id="projects" class="bg-[#0B1120] py-32 text-white">
-  <div class="max-w-7xl mx-auto px-6">
+<section id="projects" class="bg-[#0B1120] py-20 sm:py-24 md:py-32 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
 
     <div class="mb-20">
-      <p class="text-blue-400 text-lg mb-4">
+      <p class="text-blue-400 text-base sm:text-lg mb-4">
         Featured Projects
       </p>
 
-      <h2 class="text-3xl md:text-3xl md:text-5xl font-bold mb-6">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
         Enterprise Engineering Projects
       </h2>
 
-      <p class="text-gray-400 text-xl max-w-3xl">
+      <p class="text-gray-400 text-base sm:text-lg lg:text-xl max-w-3xl">
         Production-oriented backend systems, cloud deployments,
         and real-time distributed architectures.
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
 
       <!-- Project 1 -->
-      <div class="bg-[#111827] border border-white/10 rounded-3xl p-8 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 duration-300">
+      <div class="bg-[#111827] border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 duration-300">
 
-        <div class="flex justify-between items-start mb-6">
-          <h3 class="text-3xl font-bold">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-6">
+          <h3 class="text-2xl sm:text-3xl font-bold">
             Persistent MQTT Broker
           </h3>
 
-          <span class="text-blue-400 text-sm">
+          <span class="text-blue-400 text-sm sm:text-base">
             Kafka + Docker
           </span>
         </div>
@@ -178,14 +178,14 @@
       </div>
 
       <!-- Project 2 -->
-      <div class="bg-[#111827] border border-white/10 rounded-3xl p-8 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 duration-300">
+      <div class="bg-[#111827] border border-white/10 rounded-3xl p-6 sm:p-8 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 duration-300">
 
-        <div class="flex justify-between items-start mb-6">
-          <h3 class="text-3xl font-bold">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-6">
+          <h3 class="text-2xl sm:text-3xl font-bold">
             RFID Tracking Dashboard
           </h3>
 
-          <span class="text-blue-400 text-sm">
+          <span class="text-blue-400 text-sm sm:text-base">
             CRIS Project
           </span>
         </div>
@@ -223,28 +223,28 @@
   </div>
 </section>
 
-<section id="skills" class="bg-[#111827] py-32 text-white">
-  <div class="max-w-7xl mx-auto px-6">
+<section id="skills" class="bg-[#111827] py-20 sm:py-24 md:py-32 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
 
     <div class="mb-20 text-center">
-      <p class="text-blue-400 text-lg mb-4">
+      <p class="text-blue-400 text-base sm:text-lg mb-4">
         Technology Stack
       </p>
 
-      <h2 class="text-3xl md:text-3xl md:text-5xl font-bold mb-6">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
         Engineering Toolkit
       </h2>
 
-      <p class="text-gray-400 text-xl max-w-3xl mx-auto">
+      <p class="text-gray-400 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto">
         Technologies used for building scalable backend systems,
         cloud infrastructure, and enterprise applications.
       </p>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           Angular
         </h3>
 
@@ -253,8 +253,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           Node.js
         </h3>
 
@@ -263,8 +263,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           PostgreSQL
         </h3>
 
@@ -273,8 +273,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           AWS
         </h3>
 
@@ -283,8 +283,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           Docker
         </h3>
 
@@ -293,8 +293,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           Kubernetes
         </h3>
 
@@ -303,8 +303,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           MQTT
         </h3>
 
@@ -313,8 +313,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           Kafka
         </h3>
 
@@ -323,8 +323,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           LoopBack4
         </h3>
 
@@ -333,8 +333,8 @@
         </p>
       </div>
 
-      <div class="bg-[#1F2937] p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
-        <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+      <div class="bg-[#1F2937] p-4 sm:p-8 rounded-2xl border border-white/10 hover:border-blue-500/30 hover:-translate-y-2 transition duration-300 text-center">
+        <h3 class="text-lg sm:text-2xl font-semibold text-blue-400 mb-2">
           MongoDB
         </h3>
 
@@ -348,27 +348,27 @@
   </div>
 </section>
 
-<section id="contact" class="bg-[#0B1120] py-32 text-white">
-  <div class="max-w-4xl mx-auto px-6 text-center">
+<section id="contact" class="bg-[#0B1120] py-20 sm:py-24 md:py-32 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
 
-    <p class="text-blue-400 text-lg mb-4">
+    <p class="text-blue-400 text-base sm:text-lg mb-4">
       Contact
     </p>
 
-    <h2 class="text-3xl md:text-5xl font-bold mb-8">
+    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
       Let’s Build Scalable Systems Together.
     </h2>
 
-    <p class="text-gray-400 text-xl leading-relaxed mb-12">
+    <p class="text-gray-400 text-base sm:text-lg lg:text-xl leading-relaxed mb-12">
       Interested in backend engineering, cloud infrastructure,
       distributed systems, or full-stack development opportunities.
     </p>
 
-    <div class="flex flex-wrap justify-center gap-6">
+    <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6">
 
       <a
         href="mailto:karansingh06949@gmail.com"
-        class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold"
+        class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl transition font-semibold text-center w-full sm:w-auto"
       >
         Email Me
       </a>
@@ -376,7 +376,7 @@
       <a
         href="https://github.com/karan011202"
         target="_blank"
-        class="border border-white/10 hover:border-blue-400 px-8 py-4 rounded-2xl transition font-semibold"
+        class="border border-white/10 hover:border-blue-400 px-8 py-4 rounded-2xl transition font-semibold text-center w-full sm:w-auto"
       >
         GitHub
       </a>
@@ -384,7 +384,7 @@
       <a
         href="https://www.linkedin.com/in/karansingh06949/"
         target="_blank"
-        class="border border-white/10 hover:border-blue-400 px-8 py-4 rounded-2xl transition font-semibold"
+        class="border border-white/10 hover:border-blue-400 px-8 py-4 rounded-2xl transition font-semibold text-center w-full sm:w-auto"
       >
         LinkedIn
       </a>
@@ -395,7 +395,7 @@
 </section>
 
 <footer class="bg-[#111827] border-t border-white/5 py-8 text-gray-400">
-  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
 
     <div>
       © 2026 Karan Singh. All rights reserved.

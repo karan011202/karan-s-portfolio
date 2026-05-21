@@ -1,9 +1,9 @@
 <nav class="fixed top-0 left-0 w-full z-50 bg-[#0B1120]/70 backdrop-blur-xl border-b border-white/5">
 
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
 
     <!-- Logo -->
-    <div class="text-white text-2xl font-bold">
+    <div class="text-white text-xl sm:text-2xl font-bold">
       Karan Singh
     </div>
 
@@ -19,7 +19,7 @@
     <!-- Mobile Button -->
     <button
       (click)="toggleMenu()"
-      class="md:hidden text-white text-3xl"
+      class="md:hidden text-white text-3xl leading-none"
     >
       ☰
     </button>
@@ -29,7 +29,7 @@
   <!-- Mobile Menu -->
   <div
     *ngIf="isMenuOpen"
-    class="md:hidden bg-[#111827] border-t border-white/5 px-6 py-6 flex flex-col gap-6 text-gray-300"
+    class="md:hidden bg-[#111827] border-t border-white/5 px-4 sm:px-6 py-6 flex flex-col gap-6 text-gray-300"
   >
 
     <a href="#home" (click)="toggleMenu()" class="hover:text-blue-400 transition">
