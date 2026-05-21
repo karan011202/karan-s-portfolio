@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../tailwind.css";
+
+/* If you prefer using Tailwind directives directly, ensure PostCSS is configured.
+	This project uses a generated tailwind.css import for compatibility. */html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0B1120;
+  font-family: Inter, sans-serif;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+}
+
+.fade-up-delay {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.fade-up-delay-2 {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
